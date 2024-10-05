@@ -1,20 +1,20 @@
 body
 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    margin:0;
+    padding:0;
+    border: none;
 }
+header { border:1px white solid; }
 .initial
 {
 
-    margin-top: -20px;
+   
     color: white;
 
     
 }
-body
-{
-    margin:0;
-}
+
 .backimage
 {
     background-image: url(backimg.gif);
@@ -25,10 +25,12 @@ body
 .content
 {
     margin: 60px auto 100px 100px;
+    color: white;
 }
 .projects 
 {
     margin-top: 10px;
+    color: white;
 }
 .projects a
 {
@@ -56,15 +58,18 @@ body
 .content1
 {
     font-size: 30px;
+    color: white;
 }
 .content2
 {
     font-size: 90px;
+    color: white;
 }
 .content3
 {
     font-size: 20px;
     color: rgba(9,200,204,255);
+    color: white;
 }
 .navig
 {
@@ -104,4 +109,33 @@ body
 }
 .nav_links{
     column-gap: 30px;
+}
+.skills-section
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+  
+
+}
+.headings
+{
+   
+    font-size: 80px;
+    background: rgba(56,48,84,255);
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-top: 30px;
+    border-radius: 50px;
+   
+}
+
+.content5
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: auto;
 }

@@ -1,0 +1,107 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+.initial
+{
+
+    margin-top: -20px;
+    color: white;
+
+    
+}
+body
+{
+    margin:0;
+}
+.backimage
+{
+    background-image: url(backimg.gif);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+.content
+{
+    margin: 60px auto 100px 100px;
+}
+.projects 
+{
+    margin-top: 10px;
+}
+.projects a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.buttons
+{
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    background-color: rgba(57,49,85,255);
+    border: 2px dashed white;
+    color: white;
+}
+.buttons:hover{
+    background-color: white;
+    color: black;
+}
+.button-container
+{
+    display: flex;
+    column-gap: 10px;
+}
+.content1
+{
+    font-size: 30px;
+}
+.content2
+{
+    font-size: 90px;
+}
+.content3
+{
+    font-size: 20px;
+    color: rgba(9,200,204,255);
+}
+.navig
+{
+    color:white;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Caveat", cursive;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin: 0px 30px 10px ;
+}
+.front-page
+{
+    display:flex;
+    justify-content: space-between;
+}
+.ppimg
+{
+    border-radius: 50%;
+    height: 70vh;
+    margin:60px 40px 10px 100px;
+    border: 6px double aliceblue;
+}
+.nav_links a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.nav_links a:hover
+{
+    border-bottom: 1px solid white;
+    transform: scale(1.5);
+}
+.nav_links{
+    column-gap: 30px;
+}

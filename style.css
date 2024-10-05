@@ -1,18 +1,14 @@
 body
 {
     background-color: white;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     border: none;
 }
-header { border:1px white solid; }
+
 .initial
 {
-
-   
     color: white;
-
-    
 }
 
 .backimage
@@ -24,7 +20,7 @@ header { border:1px white solid; }
 }
 .content
 {
-    margin: 60px auto 100px 100px;
+    margin: 60px auto 100px;
     color: white;
 }
 .projects 
@@ -54,6 +50,9 @@ header { border:1px white solid; }
 {
     display: flex;
     column-gap: 10px;
+    flex-direction: row;
+    row-gap: 10px;
+    margin-top: 0px;
 }
 .content1
 {
@@ -81,18 +80,20 @@ header { border:1px white solid; }
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    margin: 0px 30px 10px ;
+    margin: 0px 30px 10px;
 }
 .front-page
 {
     display:flex;
     justify-content: space-between;
+    
 }
 .ppimg
 {
     border-radius: 50%;
-    height: 70vh;
-    margin:60px 40px 10px 100px;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: auto;
     border: 6px double aliceblue;
 }
 .nav_links a
@@ -105,11 +106,10 @@ header { border:1px white solid; }
 .nav_links a:hover
 {
     border-bottom: 1px solid white;
+    border-top: 1px solid white;
     transform: scale(1.5);
 }
-.nav_links{
-    column-gap: 30px;
-}
+
 .skills-section
 {
     justify-content: center;
@@ -144,14 +144,14 @@ header { border:1px white solid; }
     font-size: 20px;
     border: 2px dashed black;
     border-radius: 20px;
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
     background-image: url("pencils.gif");
     background-position: center;
     background-size: cover;
 }
 .skill
 {
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
     border-radius: 50px;
     border: 2px dashed white;
     background-color: rgba(9,200,204,255);
@@ -166,6 +166,7 @@ header { border:1px white solid; }
     display: flex;
     column-gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .tech-cards
 {
@@ -218,3 +219,100 @@ header { border:1px white solid; }
 {
     font-size: 50px;
 }
+form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+label{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+}
+input
+{
+    border-radius: 5px;
+}
+textarea
+{
+    border-radius: 5px;
+}
+#formsdiv
+{
+    border-radius: 20px;
+    background-color: rgba(56,48,84,255);
+    
+}
+#formsdiv p
+{
+    color: white;
+    padding-top: 20px;
+    font-size: 50px;
+}
+@media (max-width: 768px){
+    .front-page
+    {
+        flex-direction: column;
+    }
+    .button-container
+    {
+        flex-direction: column;
+    }
+    .content1
+    {
+        font-size: 24px;
+    }
+    .content2{
+        font-size: 48px;
+    }
+    .headings{
+        font-size: 48px;
+    }
+    .buttons{
+        padding: 10px;
+        font-size: 16px;
+    }
+    .tech-card-headings
+    {
+        font-size: 48px;
+    }
+    .tech-card-contents
+    {
+        font-size: 16px;
+    }
+    .content5
+    {
+        width: 90%;
+    }
+    
+}
+@media (max-width: 480px)
+{
+    .button-container{
+        padding: 8px;
+        flex-direction: column;
+    }
+    .tech-buttons
+    {
+        padding: 8px;
+    }
+    .skill-button-section
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 1000px)
+{
+    .ppimg
+    {
+        display: none;
+    }
+}
+

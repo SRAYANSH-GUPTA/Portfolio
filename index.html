@@ -17,16 +17,16 @@
     <div class="initial">
     <nav class="navig">
         <div class="nav_links">
-            <a href="">About Me</a>
-            <a href="">Contact</a>
-            <a href="">Skills</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+            <a href="#skills">Skills</a>
         </div>
     </nav>
     </div>
     <div class="front-page">
         <div class="content">
             <span class="content1">Hi, I'm Srayansh,</span>
-            <br><SPAN class="content2">I'M A WEB DEVELOPER</SPAN>
+            <br><SPAN class="content2">I'M A WEB<br>DEVELOPER</SPAN>
             <br>
                     <div class="content3">
                         Front-end Developer<br>
@@ -39,16 +39,14 @@
                     <button class="buttons">Contact Me</button>
                 <button class="buttons">Download Resume</button></div>
                 </div>
-                
-        
-        <div><img src="profileimg.png" alt="Profile Photo" class="ppimg"></div></div>
+    <img src="profileimg.png" alt="profilephoto" class="ppimg">        
     </div>
 
     
     
 </div>
 </div>
-<div class="content5">
+<div class="content5" id="skills">
     <div class="skills-section">
         <div class="headings">Skills</div>
         <br><div class="skill-button-section">
@@ -62,7 +60,7 @@
         </div>
         
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="headings">About Me</div>
         <p class="content6">Hello! I’m a second-year B.Tech student with a passion for web development. Currently diving deep into the world of coding, I’m eager to learn new technologies and enhance my skills in building dynamic, user-friendly websites. I enjoy exploring creative solutions to problems and am excited to collaborate on projects that make an impact. When I'm not coding, you can find me experimenting with design or staying up-to-date with the latest trends in tech. I’m looking forward to connecting with fellow tech enthusiasts and expanding my knowledge in this ever-evolving field!
         </p>
@@ -133,8 +131,20 @@
         </div>
     </div>
 </div>
-<hr>
 
+<div class="content5" id="formsdiv">
+    <p class="form-heading" id="contact">TO Contact Me:</p>
+        <form action="mailto:srayansh2310022@akgec.ac.in" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="mail">Your Email:</label>
+            <input type="mail" id="mail" name="mail" required>
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+
+        </form>
+</div>
+<hr>
 <footer>
     <div class="footer">
       <div class="icons">
@@ -144,6 +154,7 @@
         
       </div>
     </div>
+    
   </footer>
 </body>
 </html>

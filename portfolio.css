@@ -139,3 +139,13 @@ header { border:1px white solid; }
     width: 65%;
     margin: auto;
 }
+.content6
+{
+    font-size: 20px;
+    border: 2px dashed black;
+    border-radius: 20px;
+    padding: 40px 40px 40px 40px;
+    background-image: url("pencils.gif");
+    background-position: center;
+    background-size: cover;
+}

@@ -258,6 +258,7 @@ label{
 input
 {
     border-radius: 5px;
+    border: 10px double white;
 }
 textarea
 {
@@ -266,7 +267,8 @@ textarea
 #formsdiv
 {
     border-radius: 20px;
-    background-color: rgba(56,48,84,255);
+    background-image: url('contact.gif');
+    background-position: center;
     
 }
 #formsdiv p
@@ -275,6 +277,16 @@ textarea
     padding-top: 20px;
     font-size: 50px;
 }
+#submit
+{
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 768px){
     .front-page
     {

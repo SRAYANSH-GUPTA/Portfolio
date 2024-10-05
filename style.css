@@ -171,8 +171,20 @@ header { border:1px white solid; }
 {
     background-position: center;
     background-size: cover;
+    border-radius: 40px;
+    margin-top: 20px;
 }
 .tech-card-headings
 {
     font-size: 100px;
+}
+.sub-headings
+{
+    background: rgba(56,48,84,255);
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    width: 70%;
 }

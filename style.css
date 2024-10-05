@@ -8,12 +8,18 @@
         opacity: 1;
     }
 }
+html{
+    scroll-behavior: smooth;
+}
 body
 {
-    background-color: white;
     margin: 0;
     padding: 0;
     border: none;
+    background-image: url('back3.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 }
 .ham
 {
@@ -29,10 +35,7 @@ body
 
 .backimage
 {
-    background-image: url(backimg.gif);
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: cover;
+    
 }
 .content
 {
@@ -53,10 +56,11 @@ body
 .buttons
 {
     padding: 20px 20px 20px 20px;
-    border-radius: 50px;
-    background-color: rgba(57,49,85,255);
+    border-radius: 50px;    
+    backdrop-filter: 9px;
     border: 2px dashed white;
     color: white;
+    background-color: rgba(29,53,59,255);
 }
 .buttons:hover{
     background-color: white;
@@ -143,7 +147,7 @@ body
 {
    
     font-size: 80px;
-    background: rgba(56,48,84,255);
+    
     backdrop-filter: blur(10px);
     color: white;
     margin-top: 30px;
@@ -162,10 +166,11 @@ body
 .content6
 {
     font-size: 20px;
-    border: 2px dashed black;
+    border: 5px double white;
     border-radius: 20px;
     padding: 40px;
     background-image: url("pencils.gif");
+    opacity: .74;
     background-position: center;
     background-size: cover;
 }
@@ -184,7 +189,7 @@ body
 .skill-button-section
 {
     display: flex;
-    column-gap: 10px;
+    column-gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -195,12 +200,23 @@ body
     border-radius: 40px;
     margin-top: 20px;
     background-image: url('html.gif');
+    margin-top: 30px;
+    opacity: .74;
+
+}
+.tech-card-container
+{
+    display: grid;
+    gap: 10px 20px;
 }
 .tech-card-headings
 {
-    font-size: 100px;
+    font-size: 50px;
     color: white;
+    margin-top: 40px;
+    padding-top: 20px;
 }
+
 .sub-headings
 {
     
@@ -238,6 +254,11 @@ body
 .icons
 {
     font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.icons a{
+    color: white;
 }
 form
 {
@@ -268,8 +289,15 @@ textarea
 {
     border-radius: 20px;
     background-image: url('contact.gif');
+    opacity: 0.74;
     background-position: center;
     
+}
+.skillimg
+{
+    height: 80px;
+    width: 100px;
+    border-radius: 20px;
 }
 #formsdiv p
 {

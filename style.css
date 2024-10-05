@@ -173,10 +173,12 @@ header { border:1px white solid; }
     background-size: cover;
     border-radius: 40px;
     margin-top: 20px;
+    background-image: url('html.gif');
 }
 .tech-card-headings
 {
     font-size: 100px;
+    color: white;
 }
 .sub-headings
 {
@@ -187,4 +189,25 @@ header { border:1px white solid; }
     border-radius: 50px;
     font-size: 20px;
     width: 70%;
+}
+.tech-buttons
+{
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    background-color: white;
+    border: 5px double white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.tech-buttons a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.tech-card-contents
+{
+    font-size: 20px;
+    color: white;
 }

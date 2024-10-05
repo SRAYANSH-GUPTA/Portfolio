@@ -149,3 +149,30 @@ header { border:1px white solid; }
     background-position: center;
     background-size: cover;
 }
+.skill
+{
+    padding: 20px 20px 20px 20px;
+    border-radius: 50px;
+    border: 2px dashed white;
+    background-color: rgba(9,200,204,255);
+}
+.skill a
+{
+    text-decoration: none;
+    color: white;
+}
+.skill-button-section
+{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+.tech-cards
+{
+    background-position: center;
+    background-size: cover;
+}
+.tech-card-headings
+{
+    font-size: 100px;
+}

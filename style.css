@@ -182,12 +182,11 @@ header { border:1px white solid; }
 }
 .sub-headings
 {
-    background: rgba(56,48,84,255);
-    backdrop-filter: blur(10px);
-    color: white;
+    
+    color: black;
+    text-align: center;
     margin-top: 30px;
-    border-radius: 50px;
-    font-size: 20px;
+    font-size: 30px;
     width: 70%;
 }
 .tech-buttons
@@ -210,4 +209,12 @@ header { border:1px white solid; }
 {
     font-size: 20px;
     color: white;
+}
+.footer
+{
+    text-align: center;
+}   
+.icons
+{
+    font-size: 50px;
 }
